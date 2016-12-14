@@ -8,7 +8,11 @@ where you are going to set all the vocab equal to variables of the same name.
 vocab=Hash.new
 vocab["pred"] = "this makes a integer go down one, you use it like 5.pred would be 4"#this is a comment
 vocab["variable"] = "A variable is the name that you assign to a piece of information"
-
+vocab["integer"] = "Any real, rational, and whole number"
+vocab["boolean_value"] = "True, or false"
+vocab["reverse"] = "A command that can reverse any word or number"
+vocab["terminal commands"] = "Any command that you put into Ruby"
+vocab["operators"] = "A symbol that comes out with a response, ex.: division sign, multiplication sign, addition sign"
 
 
 =begin
@@ -16,7 +20,7 @@ vocab["variable"] = "A variable is the name that you assign to a piece of inform
 This is a list of the things you should define
 
 integer
-boolean_value 
+boolean_value
 reverse
 string
 terminal commands
