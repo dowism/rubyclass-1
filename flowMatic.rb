@@ -20,14 +20,14 @@ appear, along with the current flow rate.
 
 flowmatic_on = true
 water_available = true
-if flowmatic_on = false
-  print "Water can't flow!"
-elsif water_avaliable = false
+if flowmatic_on == false #this has to compare, not set flowmatic_on
+  print "Water can't flow!" #This should say "Flowmatic is off
+elsif water_available = false # available was spelled incorrectly
   print "No water!"
 else
   print "Water can flow!"
   flow_rate = 50
-  if flow_rate < 50
+  if flow_rate < 50 #nice if else statement!
     print "Warning! Flow_rate is below 50!"
   elsif flow_rate > 50
     print "Warning! Flow_rate is above 50!"
